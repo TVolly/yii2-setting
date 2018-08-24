@@ -1,0 +1,24 @@
+{
+    "name": "tvolly/yii2-setting",
+    "description": "Yii2 Setting",
+    "authors": [
+        {
+            "name": "Tursun Garipov",
+            "email": "garipovtursun@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.14",
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "tvolly\\setting\\": "src/"
+        },
+        "files": [
+            "bootstrap/index.php"
+        ]
+    }
+}
